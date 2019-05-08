@@ -1,18 +1,16 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Main1016 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		double tempo = sc.nextDouble();
-		double vMedia = sc.nextDouble();
+		int distancia = sc.nextInt();
+		int tempo = distancia * 2;
 
-		double litrosTotal = tempo * (vMedia / 12);
-
-		System.out.printf("%.3f%n", litrosTotal);
+		System.out.println(tempo + " minutos");
 
 		sc.close();
 

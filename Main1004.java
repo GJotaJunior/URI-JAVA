@@ -1,18 +1,15 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main1004 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int a, b, x;
+		int prod;
 
-		a = sc.nextInt();
-		b = sc.nextInt();
+		prod = sc.nextInt() * sc.nextInt();
 
-		x = a + b;
-
-		System.out.println("X = " + x + "");
+		System.out.println("PROD = " + prod + "");
 
 		sc.close();
 	}
